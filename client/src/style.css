@@ -1,0 +1,88 @@
+.hide-elem{
+    display: none;
+}
+.btn-circle {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 0 1rem 1rem 0;
+    border-radius: 50% !important;
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+}
+
+/*.btn{
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+}*/
+
+.btn-circle:hover{
+    font-weight: bold;
+}
+
+.vheight-100 {
+    min-height: 100vh;
+}
+
+.below-nav {
+    padding-top: 5rem;
+}
+
+.list-group-item {
+    background-color: transparent;
+}
+
+.link-list-item{
+    padding: 0 !important;
+    display: flex !important;
+}
+
+.custom-active-class{
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white !important;
+}
+.list-group-item-action:hover {
+    background-color: #9becae;
+}
+
+.important {
+    color: red;
+}
+
+.router-link{
+    color: dimgray;
+    text-decoration: none;
+    padding: .75rem 1.25rem;
+    display: block;
+    width: 100%
+}
+.router-link:hover{
+    color: dimgray;
+    text-decoration: none;
+    font-weight: bold;
+    padding: .75rem 1.25rem;
+    display: block;
+    width: 100%
+}
+/*.navbar {
+    background-color: #28a745 !important;
+}*/
+
+h3{
+    padding-top: 0.5em;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.react-time-picker__wrapper{
+    border-radius: 0.3em !important;
+    border: thin solid silver !important;
+    margin-left: 0.5em !important;
+}
+
+.react-time-picker *{
+    color: dimgray;
+}
